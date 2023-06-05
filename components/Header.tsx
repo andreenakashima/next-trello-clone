@@ -4,6 +4,8 @@ import Avatar from "react-avatar";
 export default function Header() {
 	return (
 		<header>
+			<div className="absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-pink-400 to-blue-600 rounded-md filter blur-3xl opacity-50 -z-10" />
+
 			<div className="flex flex-col md:flex-row items-center p-5 bg-gray-500/10 rounded-b-2xl">
 				<h1 className="text-5xl font-bold">Logo</h1>
 
@@ -24,7 +26,7 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div className="flex items-center justify-center px-5 md:py-5">
+			<div className="flex items-center justify-center px-5 py-2 md:py-5">
 				<p className="flex items-center text-sm font-light p-5 pr-5 shadow-xl rounded-xl w-fit bg-white italic max-w-3xl text-[#0055d1]">
 					<UserCircleIcon className="inline-block h-10 w-10 text-[#0055d1] mr-1" />
 					GPT resumo do dia...
