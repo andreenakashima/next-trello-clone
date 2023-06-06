@@ -5,7 +5,7 @@ export default function Home() {
 	return (
 		<main>
 			<Header />
-			<h1>Trello AI clone</h1>
+
 			<Board />
 		</main>
 	);
